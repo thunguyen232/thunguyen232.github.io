@@ -2035,6 +2035,28 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* Base styles for smooth transitions */
+	.popup-card {
+		position: relative;
+		overflow: hidden;
+		transition: transform 0.5s ease, box-shadow 0.5s ease;
+		cursor: pointer;
+		border-radius: 0.5em;
+	}
+
+	/* Hover effect */
+	.popup-card:hover {
+		transform: scale(1.08);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+		z-index: 2;
+		border-radius: 0.5em;
+	}
+
+	/* Optional: subtle image zoom too */
+	.popup-card img {
+		transition: transform 0.4s ease;
+	}
+
 /* Image */
 
 	.image.portfolio {
