@@ -1,0 +1,10 @@
+{
+  "name": "thu-nguyen-bi-data-analyst-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive portfolio website for Thu Nguyen, BI/Data Analyst.",
+  "scripts": {
+    "start": "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
